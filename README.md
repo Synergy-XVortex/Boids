@@ -50,11 +50,14 @@ Le projet Boids Simulation est une application Python utilisant la bibliothèque
 
 # Fonctionnement de la Simulation
 1. Initialisation : La simulation démarre en initialisant un nombre défini de boids à des positions aléatoires à l'intérieur des limites de la fenêtre.
+
 2. Comportements des Boids : Chaque boid suit trois règles simples :
     - Séparation : Éviter la collision avec les autres boids en ajustant sa direction.
     - Alignement : Ajuster sa vitesse pour correspondre à celle des boids voisins.
     - Cohésion : Se regrouper vers le centre de masse des boids voisins.
+
 3. Mise à Jour : À chaque itération de la boucle principale, les positions et les comportements des boids sont mis à jour en fonction des règles définies.
+
 4. Interface Utilisateur : L'interface utilisateur permet à l'utilisateur d'ajuster les paramètres de simulation en temps réel, tels que le nombre de boids, la taille du rayon de voisinage, et les poids des comportements.
 
 # Conclusion
